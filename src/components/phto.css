@@ -1,0 +1,12 @@
+.turned {
+  transform: rotate(180deg);
+}
+
+img {
+  width: 300px;
+  height: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  object-fit: cover; /* Asegurar que la imagen cubra el contenedor */
+  object-position: center;
+}
